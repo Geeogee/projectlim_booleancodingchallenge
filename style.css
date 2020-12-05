@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(img/background.jpg);
+  background-size: cover;
+}
+
+.container {
+  width: 1000px;
+  margin: 20px auto 0;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 20px;
+  padding: 50px;
+  font-family: "Ubuntu", arial;
+}
+
+ /* Logo */
+
+header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+header img {
+  width: 200px;
+}
+
+ header h1 {
+   color: #00dd00;
+ }
+
+ /* Nav */
+
+nav {
+  background-color:  #00dd00;
+  text-align: center;
+  padding: 10px;
+}
+
+nav [type=button] {
+  width: 150px;
+  font-size: 10px;
+}
+
+/* Main */
+
+main section {
+  color: #FFF;
+  margin-top: 15px;
+}
+
+section h3 {
+  display: inline-block;
+}
+
+.pos_monopattino::before {
+  content: "\21A6 ";
+}
+
+.pos_monopattino {
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* Div carica batteria monopatino */
+
+section div {
+  border-radius: 4px;
+  height: 20px;
+}
+
+.full_charge {
+  background-color: #59c81e;
+  width: 300px;
+}
+
+.medium_charge {
+  background-color: #ffc72e;
+  width: 150px;
+}
+
+.low_charge {
+  background-color: #e41b1b;
+  width: 30px;
+}
